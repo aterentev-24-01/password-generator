@@ -22,6 +22,7 @@ python password_generator.py
 # Структура проекта
 - .gitignore # Исключения для Git
 - README.md # Документация проекта
+- src/password_generator.py
 
 # Автор 
 Артем Терентьев
