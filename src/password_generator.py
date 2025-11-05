@@ -20,10 +20,10 @@ def generate_password(length=12):
     Returns:
         str: Сгенерированный пароль
     """
-    # Используем буквы (прописные и строчные) и цифры
+    # буквы и цифры
     characters = string.ascii_letters + string.digits
     
-    # Проверяем минимальную длину
+    # минимальная длина
     if length < 4:
         raise ValueError("Длина пароля должна быть не менее 4 символов")
     
@@ -33,7 +33,6 @@ def generate_password(length=12):
 
 
 def main():
-    """Основная функция для работы из командной строки"""
     parser = argparse.ArgumentParser(
         description="Генератор безопасных случайных паролей",
         formatter_class=argparse.RawDescriptionHelpFormatter,
