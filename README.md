@@ -16,7 +16,8 @@ git clone https://github.com/your-username/password-generator.git
 venv\Scripts\activate
 
 # Запуск
-cd src && python password_generator.py
+cd src
+python password_generator.py
 
 # Структура проекта
 - .gitignore # Исключения для Git
