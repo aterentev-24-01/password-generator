@@ -12,6 +12,8 @@
 
 # Установка
 git clone https://github.com/your-username/password-generator.git
+создания виртуального окружения- bash
+venv\Scripts\activate
 
 # Запуск
 cd src && python password_generator.py
